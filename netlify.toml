@@ -1,0 +1,3 @@
+[dev]
+autoLaunch = false
+publish = "dist"

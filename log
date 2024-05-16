@@ -1,0 +1,28 @@
+◈ Netlify Dev ◈
+◈ Ignored general context env var: LANG (defined in process)
+◈ No app server detected. Using simple static server
+◈ Running static server from "netlify-dev-os/dist"
+◈ Setting up local development server
+Cleaned up .netlify/functions-internal.
+
+◈ Static server listening to 3999
+
+   ┌─────────────────────────────────────────────────┐
+   │                                                 │
+   │   ◈ Server now ready on http://localhost:8888   │
+   │                                                 │
+   └─────────────────────────────────────────────────┘
+
+PermissionDenied: Requires sys access to "cpus", run again with the --allow-sys flag
+    at Object.cpus (node:os:27:10)
+    at Object.<anonymous> (file:///opt/homebrew/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/.deno/fast-glob@3.3.2/node_modules/fast-glob/out/settings.js:10:31)
+    at Object.<anonymous> (file:///opt/homebrew/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/.deno/fast-glob@3.3.2/node_modules/fast-glob/out/settings.js:61:4)
+    at Module._compile (node:module:659:34)
+    at Object.Module._extensions..js (node:module:673:10)
+    at Module.load (node:module:597:32)
+    at Function.Module._load (node:module:484:12)
+    at Module.require (node:module:609:19)
+    at require (node:module:715:16)
+    at Object.<anonymous> (file:///opt/homebrew/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/.deno/fast-glob@3.3.2/node_modules/fast-glob/out/index.js:6:20) {
+  name: "PermissionDenied"
+}
